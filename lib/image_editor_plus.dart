@@ -1396,7 +1396,8 @@ class _ImageCropperState extends State<ImageCropper> {
           ],
         ),
         body: Container(
-          color: Colors.black,
+         // color: Colors.black,
+          color: Colors.transparent,
           child: ExtendedImage.memory(
             widget.image,
             cacheRawData: true,
